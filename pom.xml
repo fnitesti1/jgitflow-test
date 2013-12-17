@@ -21,12 +21,8 @@
         <version>1.0-alpha21.1</version>
         <configuration>
           <flowInitContext>
-             <masterBranchName>master</masterBranchName>
              <developBranchName>devel</developBranchName>
-             <featureBranchPrefix>FTR-</featureBranchPrefix>
-             <releaseBranchPrefix>REL-</releaseBranchPrefix>
-             <hotfixBranchPrefix>BUG-</hotfixBranchPrefix>
-             <versionTagPrefix>VER-</versionTagPrefix>
+	     <pushFeatures>true</pushFeatures>
            </flowInitContext>
         </configuration>
       </plugin>
