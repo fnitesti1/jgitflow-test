@@ -13,4 +13,24 @@
     <connection>scm:git:git@github.com:fnitest1/jgitflow-test.git</connection>
   </scm>
   
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.atlassian.maven.plugins</groupId>
+        <artifactId>maven-jgitflow-plugin</artifactId>
+        <version>1.0-alpha21.1</version>
+        <configuration>
+          <flowInitContext>
+             <masterBranchName>master</masterBranchName>
+             <developBranchName>devel</developBranchName>
+             <featureBranchPrefix>FTR-</featureBranchPrefix>
+             <releaseBranchPrefix>REL-</releaseBranchPrefix>
+             <hotfixBranchPrefix>BUG-</hotfixBranchPrefix>
+             <versionTagPrefix>VER-</versionTagPrefix>
+           </flowInitContext>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
 </project>
