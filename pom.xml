@@ -22,8 +22,8 @@
         <configuration>
           <flowInitContext>
              <developBranchName>devel</developBranchName>
-	     <pushFeatures>true</pushFeatures>
            </flowInitContext>
+	   <pushFeatures>true</pushFeatures>
         </configuration>
       </plugin>
     </plugins>
