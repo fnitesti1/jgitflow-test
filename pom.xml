@@ -12,7 +12,7 @@
     <url>git@github.com:fnitesti1/jgitflow-test.git</url>
     <connection>scm:git:git@github.com:fnitest1/jgitflow-test.git</connection>
   </scm>
-  
+<!--  
   <build>
     <plugins>
       <plugin>
@@ -28,5 +28,5 @@
       </plugin>
     </plugins>
   </build>
-  
+  -->
 </project>
